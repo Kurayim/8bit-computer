@@ -82,7 +82,6 @@ architecture Behavioral of rom_128x8_sync is
         end process;
         
         
-        
         -- ROM read process: synchronous read
         memory : process(clock)
             begin
