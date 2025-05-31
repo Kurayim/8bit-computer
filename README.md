@@ -1,10 +1,5 @@
-![Screenshot 2025-05-31 005259](https://github.com/user-attachments/assets/499e570c-e476-449f-b3a5-6ffcd32a15f3)![Screenshot 2025-05-31 005124](https://github.com/user-attachments/assets/c1fca7c5-8a19-4140-b811-9be441e2836c)# 8bit-computer
+# 8bit-computer
 This project is a practical implementation of an 8-bit computer, inspired by the final chapter of the book Quick Start Guide to VHDL. After studying the concepts, I developed this design as a hands-on exercise and decided to share it with others who are learning or working with VHDL.<br>
-
-
-    
-
-
 
 
 
