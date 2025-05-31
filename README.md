@@ -39,7 +39,9 @@ We have designed and simulated all these blocks to ensure correct behavior befor
 
 ## CPU Architecture Overview <br>
 
-![Screenshot 2025-05-31 005124](https://github.com/user-attachments/assets/9e96f86b-616d-4c99-8f3d-8e8955aca7d4)<br><br>   
+
+
+![Screenshot 2025-05-31 005259](https://github.com/user-attachments/assets/8159729f-9b41-462a-a6a0-c7b52c7de4e3)<br><br>   
 
 The image above illustrates the internal architecture of a simple 8-bit computer, divided into two main sections: the Control Unit and the Data Path. This modular design is implemented across multiple VHDL files (control_unit.vhd, data_path.vhd, alu.vhd, etc.) and coordinated by a top-level entity (cpu.vhd).
 Control Unit (FSM): This section generates control signals such as IR_Load, PC_Load, ALU_Sel, and others to orchestrate data movement and operations within the data path. It is responsible for sequencing instructions and managing the finite state machine logic.
