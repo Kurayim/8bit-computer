@@ -33,7 +33,7 @@ rw_96x8_sync.vhd – read/write memory for data storage.
 Input Ports – 16 input ports, selected via a multiplexer.
 Output Ports – 16 output ports, updated through address decoding.
 All of these components are implemented in VHDL and integrated in the memory.vhd system. The module routes data based on the address and supports clocked write operations for output and RAM.
-We have designed and simulated all these blocks to ensure correct behavior before synthesis.<br>
+We have designed and simulated all these blocks to ensure correct behavior before synthesis.<br><br>
 
 
 
