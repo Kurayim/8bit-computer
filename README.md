@@ -10,7 +10,7 @@ This project is a practical implementation of an 8-bit computer, inspired by the
 
 ## Educational Explanation for the Block Diagram (Top-Level: computer.vhd)<br>
 
-![Screenshot 2025-05-31 005030](https://github.com/user-attachments/assets/be4064cc-9944-4cc8-a316-74548bacc422)<br>
+![Screenshot 2025-05-31 005030](https://github.com/user-attachments/assets/be4064cc-9944-4cc8-a316-74548bacc422)<br><br>
 
 This block diagram represents the top-level architecture of an 8-bit computer system, composed of two main components: the CPU (cpu.vhd) and the Memory System (memory.vhd). The system is implemented in VHDL and is designed to simulate a fully functional yet simple processor for educational purposes.
 The CPU module handles instruction execution. It provides address, control (write), and data signals (to_memory and from_memory) to communicate with the memory system.
@@ -20,11 +20,11 @@ The clock and reset signals are shared between both modules to ensure synchroniz
 
 This structure demonstrates the principle of modular design, enabling easy expansion, testing, and debugging.
 This diagram is essential for understanding how data flows between the CPU and memory and how external I/O is handled in a basic digital computer system using VHDL.
-As part of this project, we aim to implement all of these blocks entirely in VHDL and verify their operation through simulation, ensuring each module functions correctly before hardware synthesis.
+As part of this project, we aim to implement all of these blocks entirely in VHDL and verify their operation through simulation, ensuring each module functions correctly before hardware synthesis.<br>
 
 
-
-![Screenshot 2025-05-31 005124](https://github.com/user-attachments/assets/7c672d19-f740-4d2d-95fb-259fa445a11a)
+##  Memory Block Diagram <br>
+![Screenshot 2025-05-31 005124](https://github.com/user-attachments/assets/7c672d19-f740-4d2d-95fb-259fa445a11a)<br><br>
 
 
 This block diagram shows the structure of the memory.vhd module used in our 8-bit computer project. It connects the CPU to program memory, data memory, and I/O ports.
