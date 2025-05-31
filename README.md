@@ -1,5 +1,5 @@
-# 8bit-computer
-This project is a practical implementation of an 8-bit computer, inspired by the final chapter of the book Quick Start Guide to VHDL. After studying the concepts, I developed this design as a hands-on exercise and decided to share it with others who are learning or working with VHDL.
+![Screenshot 2025-05-31 005259](https://github.com/user-attachments/assets/499e570c-e476-449f-b3a5-6ffcd32a15f3)![Screenshot 2025-05-31 005124](https://github.com/user-attachments/assets/c1fca7c5-8a19-4140-b811-9be441e2836c)# 8bit-computer
+This project is a practical implementation of an 8-bit computer, inspired by the final chapter of the book Quick Start Guide to VHDL. After studying the concepts, I developed this design as a hands-on exercise and decided to share it with others who are learning or working with VHDL.<br>
 
 
     
@@ -29,7 +29,7 @@ As part of this project, we aim to implement all of these blocks entirely in VHD
 
 ##  Memory Block Diagram <br>
 
-![Screenshot 2025-05-31 005124](https://github.com/user-attachments/assets/7c672d19-f740-4d2d-95fb-259fa445a11a)<br><br>
+ ![Screenshot 2025-05-31 005124](https://github.com/user-attachments/assets/7c672d19-f740-4d2d-95fb-259fa445a11a)<br><br>   
 
 This block diagram shows the structure of the memory.vhd module used in our 8-bit computer project. It connects the CPU to program memory, data memory, and I/O ports.
 Key VHDL Components:
@@ -38,20 +38,20 @@ rw_96x8_sync.vhd – read/write memory for data storage.
 Input Ports – 16 input ports, selected via a multiplexer.
 Output Ports – 16 output ports, updated through address decoding.
 All of these components are implemented in VHDL and integrated in the memory.vhd system. The module routes data based on the address and supports clocked write operations for output and RAM.
-We have designed and simulated all these blocks to ensure correct behavior before synthesis.
+We have designed and simulated all these blocks to ensure correct behavior before synthesis.<br>
 
 
 
-## CPU Architecture Overview<br><br>
+## CPU Architecture Overview <br><br>
 
-![Uploading Screenshot 2025-05-31 005259.png…]()<br><br>
+![Screenshot 2025-05-31 005124](https://github.com/user-attachments/assets/9e96f86b-616d-4c99-8f3d-8e8955aca7d4)<br><br>   
 
 The image above illustrates the internal architecture of a simple 8-bit computer, divided into two main sections: the Control Unit and the Data Path. This modular design is implemented across multiple VHDL files (control_unit.vhd, data_path.vhd, alu.vhd, etc.) and coordinated by a top-level entity (cpu.vhd).
 Control Unit (FSM): This section generates control signals such as IR_Load, PC_Load, ALU_Sel, and others to orchestrate data movement and operations within the data path. It is responsible for sequencing instructions and managing the finite state machine logic.
 Data Path: Contains the core registers (IR, PC, MAR, A, B), buses (BUS1, BUS2), and the ALU. Multiplexers select the source and destination of data flow, and the CCR register stores condition flags (NZVC) for branching and status checks.
 
 Communication with Memory: The architecture includes inputs and outputs such as from_memory, to_memory, and address to interface with external RAM or ROM modules.
-This block diagram served as the reference for developing the VHDL code and testbenches in this project.
+This block diagram served as the reference for developing the VHDL code and testbenches in this project.<br>
 
 
 
