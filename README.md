@@ -3,6 +3,8 @@ This project is a practical implementation of an 8-bit computer, inspired by the
 
 
 
+
+
 ![Screenshot 2025-05-31 005030](https://github.com/user-attachments/assets/be4064cc-9944-4cc8-a316-74548bacc422)
 
 
