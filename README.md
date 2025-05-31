@@ -12,6 +12,7 @@ The CPU module handles instruction execution. It provides address, control (writ
 The Memory module stores both the program and data. It receives the address and control signals from the CPU and responds with the requested data or stores new values as instructed.
 The design supports 16 input ports (port_in_00 to port_in_15) and 16 output ports (port_out_00 to port_out_15), each 8 bits wide, allowing the system to interact with external devices or peripherals.
 The clock and reset signals are shared between both modules to ensure synchronized operation.
+
 This structure demonstrates the principle of modular design, enabling easy expansion, testing, and debugging.
 This diagram is essential for understanding how data flows between the CPU and memory and how external I/O is handled in a basic digital computer system using VHDL.
 As part of this project, we aim to implement all of these blocks entirely in VHDL and verify their operation through simulation, ensuring each module functions correctly before hardware synthesis.
