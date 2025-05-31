@@ -24,7 +24,7 @@ As part of this project, we aim to implement all of these blocks entirely in VHD
 
 ![Screenshot 2025-05-31 005124](https://github.com/user-attachments/assets/7c672d19-f740-4d2d-95fb-259fa445a11a)
 
-memory.vhd Block Diagram – Overview
+
 This block diagram shows the structure of the memory.vhd module used in our 8-bit computer project. It connects the CPU to program memory, data memory, and I/O ports.
 
 Key VHDL Components:
