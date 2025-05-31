@@ -8,7 +8,7 @@ This project is a practical implementation of an 8-bit computer, inspired by the
 
 
 
-##Educational Explanation for the Block Diagram (Top-Level: computer.vhd)
+## Educational Explanation for the Block Diagram (Top-Level: computer.vhd)
 
 This block diagram represents the top-level architecture of an 8-bit computer system, composed of two main components: the CPU (cpu.vhd) and the Memory System (memory.vhd). The system is implemented in VHDL and is designed to simulate a fully functional yet simple processor for educational purposes.
 The CPU module handles instruction execution. It provides address, control (write), and data signals (to_memory and from_memory) to communicate with the memory system.
