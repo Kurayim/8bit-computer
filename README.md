@@ -3,7 +3,7 @@ This project is a practical implementation of an 8-bit computer, inspired by the
 
 
 
-## Educational Explanation for the Block Diagram (Top-Level: computer.vhd)<br>
+## Educational Explanation for the Block Diagram (Top-Level: computer.vhd) <br>
 
 ![Screenshot 2025-05-31 005030](https://github.com/user-attachments/assets/be4064cc-9944-4cc8-a316-74548bacc422)<br><br>
 
@@ -15,7 +15,7 @@ The clock and reset signals are shared between both modules to ensure synchroniz
 
 This structure demonstrates the principle of modular design, enabling easy expansion, testing, and debugging.
 This diagram is essential for understanding how data flows between the CPU and memory and how external I/O is handled in a basic digital computer system using VHDL.
-As part of this project, we aim to implement all of these blocks entirely in VHDL and verify their operation through simulation, ensuring each module functions correctly before hardware synthesis.<br>
+As part of this project, we aim to implement all of these blocks entirely in VHDL and verify their operation through simulation, ensuring each module functions correctly before hardware synthesis.<br><br>
 
 
 
@@ -37,7 +37,7 @@ We have designed and simulated all these blocks to ensure correct behavior befor
 
 
 
-## CPU Architecture Overview <br><br>
+## CPU Architecture Overview <br>
 
 ![Screenshot 2025-05-31 005124](https://github.com/user-attachments/assets/9e96f86b-616d-4c99-8f3d-8e8955aca7d4)<br><br>   
 
