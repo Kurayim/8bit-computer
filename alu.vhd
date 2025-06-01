@@ -1,3 +1,14 @@
+
+
+-- This ALU performs basic arithmetic and logic operations such as addition, subtraction, AND, OR, increment, and decrement.
+-- It generates a result and updates status flags (Negative, Zero, Overflow, Carry) accordingly. The design uses 9-bit arithmetic
+-- to handle carry and overflow safely. Operations are selected using a 3-bit control signal (ALU_Sel). This code is suitable 
+-- for small CPUs like the 8-bit computer described in educational projects.
+
+
+
+
+
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 use IEEE.NUMERIC_STD.ALL;
