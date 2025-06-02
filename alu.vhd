@@ -6,7 +6,7 @@
 -- for small CPUs like the 8-bit computer described in educational projects.
 
 
-
+       
 
 
 library IEEE;
