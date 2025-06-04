@@ -51,6 +51,18 @@ Communication with Memory: The architecture includes inputs and outputs such as 
 This block diagram served as the reference for developing the VHDL code and testbenches in this project.<br>
 
 
+## Computer schematic <br>
+
+![Screenshot 2025-06-04 004924](https://github.com/user-attachments/assets/96f08cd3-d4e5-43ea-9180-039b350c0c15)<br>
+
+## CPU schematic <br>
+
+![cpu](https://github.com/user-attachments/assets/bea81b37-86f2-4248-8d5e-833c828935eb)<br>
+
+## Memory schematic <br>
+![memory](https://github.com/user-attachments/assets/78ee3d7f-05be-4a2e-bdc6-57ab68ed59bb)<br>
+
+
 
 
 
