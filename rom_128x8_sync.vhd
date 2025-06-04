@@ -9,10 +9,7 @@
 -- Target Devices: 
 -- Tool Versions: 
 -- Description: 
--- This VHDL module defines a 128x8-bit synchronous ROM used in an 8-bit computer project. It outputs data based on a 7-bit address input, 
--- synchronized with the clock. The ROM is preloaded with instruction values, and the CPU reads these instructions during program execution. 
--- Data is returned only when the address is valid and a rising clock edge occurs.
-
+-- 
 -- Dependencies: 
 -- 
 -- Revision:
@@ -74,15 +71,16 @@ architecture Behavioral of rom_128x8_sync is
     
     begin
     
-        -- Enable logic: active only if address is in valid range (0 to 127)
+         -- Enable process: validate address range
         enable : process(address)
         begin
             if((to_integer(unsigned(address)) >= 0 )  and  (to_integer(unsigned(address)) <= 127)) then
-                EN <= '1';    -- Enable read
+                EN <= '1';
             else
-                EN <= '0';    -- Disable read (invalid address)
+                EN <= '0';
             end if;
         end process;
+        
         
         
         -- ROM read process: synchronous read
@@ -90,7 +88,7 @@ architecture Behavioral of rom_128x8_sync is
             begin
             if(rising_edge(clock))then
                 if(EN = '1')then
-                    -- Output ROM content at current address
+                   -- data_out <= ROM(to_integer(unsigned(address)));
                    data_out <= ROM(to_integer(unsigned(address)));
                 end if;
              end if;
