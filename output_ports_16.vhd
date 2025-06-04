@@ -80,7 +80,7 @@ begin
 P1 : process(clock, reset)
      begin
         if(reset = '0')then
-          port_out_00 <= X"00";
+          port_out_01 <= X"00";
         elsif(rising_edge(clock))then
           if(write = '1'  and  address = X"E1")then
             port_out_01 <= data_in;
@@ -92,7 +92,7 @@ P1 : process(clock, reset)
     P2 : process(clock, reset)
     begin
         if(reset = '0')then
-          port_out_00 <= X"00";
+          port_out_02 <= X"00";
         elsif(rising_edge(clock))then
           if(write = '1'  and  address = X"E2")then
             port_out_02 <= data_in;
@@ -103,7 +103,7 @@ P1 : process(clock, reset)
     P3 : process(clock, reset)
     begin
         if(reset = '0')then
-          port_out_00 <= X"00";
+          port_out_03 <= X"00";
         elsif(rising_edge(clock))then
           if(write = '1'  and  address = X"E3")then
             port_out_03 <= data_in;
@@ -114,7 +114,7 @@ P1 : process(clock, reset)
     P4 : process(clock, reset)
     begin
         if(reset = '0')then
-          port_out_00 <= X"00";
+          port_out_04 <= X"00";
         elsif(rising_edge(clock))then
           if(write = '1'  and  address = X"E4")then
             port_out_04 <= data_in;
@@ -125,7 +125,7 @@ P1 : process(clock, reset)
     P5 : process(clock, reset)
     begin
         if(reset = '0')then
-          port_out_00 <= X"00";
+          port_out_05 <= X"00";
         elsif(rising_edge(clock))then
           if(write = '1'  and  address = X"E5")then
             port_out_05 <= data_in;
@@ -136,7 +136,7 @@ P1 : process(clock, reset)
     P6 : process(clock, reset)
     begin
         if(reset = '0')then
-          port_out_00 <= X"00";
+          port_out_06 <= X"00";
         elsif(rising_edge(clock))then
           if(write = '1'  and  address = X"E6")then
             port_out_06 <= data_in;
@@ -147,7 +147,7 @@ P1 : process(clock, reset)
     P7 : process(clock, reset)
     begin
         if(reset = '0')then
-          port_out_00 <= X"00";
+          port_out_07 <= X"00";
         elsif(rising_edge(clock))then
           if(write = '1'  and  address = X"E7")then
             port_out_07 <= data_in;
@@ -158,7 +158,7 @@ P1 : process(clock, reset)
     P8 : process(clock, reset)
     begin
         if(reset = '0')then
-          port_out_00 <= X"00";
+          port_out_08 <= X"00";
         elsif(rising_edge(clock))then
           if(write = '1'  and  address = X"E8")then
             port_out_08 <= data_in;
@@ -169,7 +169,7 @@ P1 : process(clock, reset)
     P9 : process(clock, reset)
     begin
         if(reset = '0')then
-          port_out_00 <= X"00";
+          port_out_09 <= X"00";
         elsif(rising_edge(clock))then
           if(write = '1'  and  address = X"E9")then
             port_out_09 <= data_in;
@@ -180,7 +180,7 @@ P1 : process(clock, reset)
     P10 : process(clock, reset)
     begin
         if(reset = '0')then
-          port_out_00 <= X"00";
+          port_out_10 <= X"00";
         elsif(rising_edge(clock))then
           if(write = '1'  and  address = X"EA")then
             port_out_10 <= data_in;
@@ -191,7 +191,7 @@ P1 : process(clock, reset)
     P11 : process(clock, reset)
     begin
         if(reset = '0')then
-          port_out_00 <= X"00";
+          port_out_11 <= X"00";
         elsif(rising_edge(clock))then
           if(write = '1'  and  address = X"EB")then
             port_out_11 <= data_in;
@@ -202,7 +202,7 @@ P1 : process(clock, reset)
     P12 : process(clock, reset)
     begin
         if(reset = '0')then
-          port_out_00 <= X"00";
+          port_out_12 <= X"00";
         elsif(rising_edge(clock))then
           if(write = '1'  and  address = X"EC")then
             port_out_12 <= data_in;
@@ -213,7 +213,7 @@ P1 : process(clock, reset)
     P13 : process(clock, reset)
     begin
         if(reset = '0')then
-          port_out_00 <= X"00";
+          port_out_13 <= X"00";
         elsif(rising_edge(clock))then
           if(write = '1'  and  address = X"ED")then
             port_out_13 <= data_in;
@@ -224,7 +224,7 @@ P1 : process(clock, reset)
     P14 : process(clock, reset)
     begin
         if(reset = '0')then
-          port_out_00 <= X"00";
+          port_out_14 <= X"00";
         elsif(rising_edge(clock))then
           if(write = '1'  and  address = X"EF")then
             port_out_14 <= data_in;
@@ -235,7 +235,7 @@ P1 : process(clock, reset)
     P15 : process(clock, reset)
     begin
         if(reset = '0')then
-          port_out_00 <= X"00";
+          port_out_15 <= X"00";
         elsif(rising_edge(clock))then
           if(write = '1'  and  address = X"F0")then
             port_out_15 <= data_in;
