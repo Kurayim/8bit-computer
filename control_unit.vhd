@@ -1,19 +1,36 @@
+----------------------------------------------------------------------------------
+-- Company: 
+-- Engineer: 
+-- 
+-- Create Date: 06/03/2025 10:31:42 PM
+-- Design Name: 
+-- Module Name: countrol_unit - Behavioral
+-- Project Name: 
+-- Target Devices: 
+-- Tool Versions: 
+-- Description: 
+-- 
+-- Dependencies: 
+-- 
+-- Revision:
+-- Revision 0.01 - File Created
+-- Additional Comments:
+-- 
+----------------------------------------------------------------------------------
 
--- ============================================================================
--- Title      : control_unit.vhd
--- Description: Implements the control unit for an 8-bit CPU using a Finite State
---              Machine (FSM). It generates control signals to guide data movement,
---              instruction execution, and ALU operations. It handles instruction fetch,
---              decode, and execution phases for basic instructions like LDA, LDB,
---              STA, STB, ADD, and branching.
---              Instruction opcodes are stored as constants and compared during decode.
---              The FSM updates its current state on each clock cycle.
---              Output logic sets control signals based on the current state.
--- ============================================================================
 
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 use IEEE.NUMERIC_STD.ALL;
+
+-- Uncomment the following library declaration if using
+-- arithmetic functions with Signed or Unsigned values
+--use IEEE.NUMERIC_STD.ALL;
+
+-- Uncomment the following library declaration if instantiating
+-- any Xilinx leaf cells in this code.
+--library UNISIM;
+--use UNISIM.VComponents.all;
 
 entity control_unit is
     Port (
